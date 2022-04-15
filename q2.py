@@ -46,3 +46,6 @@ if __name__ == '__main__':
     assert (permutate("223xcpord")) == 6
     assert (permutate("22a3xcpord")) == 12
 
+    """
+    Referenced from: https://stackoverflow.com/a/6285203
+    """
