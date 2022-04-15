@@ -43,6 +43,7 @@ def permutate(input: string) -> int:
 if __name__ == '__main__':
     assert (permutate("r2d2c3pxxx")) == 0
     assert (permutate("c3por2d2")) == 2
+    assert (permutate("22a3xcpordd")) == 20
     assert (permutate("223xcpord")) == 6
     assert (permutate("22a3xcpord")) == 12
 

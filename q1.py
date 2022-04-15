@@ -2,10 +2,14 @@ import string
 
 
 def ascii_to_string(ascii: string) -> string:
+    """
+    :param ascii: ascii string itself.
+    :return: human readable string.
+    """
     i = 0
     current_string = ""
     while i <= len(ascii) - 2:
-        if (int(ascii[i:i + 2])) >= 32:  # Might work
+        if (int(ascii[i:i + 2])) >= 32:
             current_ascii = int(ascii[i:i + 2])
             if (int(ascii[i:i + 3])) <= 122:
                 current_ascii = int(ascii[i:i + 3])
