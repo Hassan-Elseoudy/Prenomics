@@ -39,18 +39,7 @@ def smallest_sum(v: int, length: int, numbers: []) -> int:
     return len(elements) + count
 
 
-if __name__ == '__main__':
-    assert get_smallest_pair([1, 2, 3, 4]) == [1, 2]
-    assert get_smallest_pair([-1, -2, -3, 4]) == [-3, -2]
-    assert get_smallest_pair([0, 4, 1, 2]) == [0, 1]
-    assert get_smallest_pair([0, 0, 1, 4]) == [0, 0]
-    assert get_smallest_pair([4, 1, 0, 0]) == [0, 0]
-
-    assert smallest_sum(15, 5, [12, 2, 5, 14, 1]) == 4
-    assert smallest_sum(6, 3, [1, 2, 3]) == 3
-    assert smallest_sum(-20, 6, [25, 15, 5, -5, -15, -25]) == 5
-    assert smallest_sum(100, 3, [33, 34, 35]) == 0
-
+# if __name__ == '__main__':
     # Driver, you can uncomment it.
     # v = int(input())
     # size = int(input())

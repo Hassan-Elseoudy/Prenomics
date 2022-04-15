@@ -38,15 +38,3 @@ def permutate(input: string) -> int:
     required_list = list(dict(filter(lambda item: item[1] > 0, count.items())).values()) + ["c3po", "r2d2"]
 
     return len(list(perm_unique(required_list)))
-
-
-if __name__ == '__main__':
-    assert (permutate("r2d2c3pxxx")) == 0
-    assert (permutate("c3por2d2")) == 2
-    assert (permutate("22a3xcpordd")) == 20
-    assert (permutate("223xcpord")) == 6
-    assert (permutate("22a3xcpord")) == 12
-
-    """
-    Referenced from: https://stackoverflow.com/a/6285203
-    """
